@@ -10,9 +10,13 @@ Reference Git Repository:https://github.com/shraddha313/hiiii/tree/main/Lab-5_20
 
 # mypy tool:
 mypy is an open-source static type checker for Python. </br>
+
 It supports type annotations for function arguments, return values, and variables.</br>
+
 It can also check for common type-related errors such as type mismatches, invalid method calls, and incorrect argument types.</br>
+
 mypy supports various types of annotations including built-in types like str, int, float, etc., user-defined classes, generic types, and union types</br>.
+
 It also provides options to customize the checking process, ignore certain files, and suppress specific error messages</br>
 
 Type checkers help ensure that you’re using variables and functions in your code correctly. With mypy, add type hints (PEP 484) to your Python programs, and mypy will warn you when you use those types incorrectly.</br>
@@ -26,6 +30,7 @@ clone the git repository</br>
 ![image](https://user-images.githubusercontent.com/77456124/227498566-e72f3c81-7403-48fd-91c7-c4e4f81c8d9a.png)
 
 then run the file </br>
+using python -m mypy file name 
 
 # 1) first repo 
 
@@ -55,6 +60,8 @@ import error
 ![image](https://user-images.githubusercontent.com/77456124/227499094-c0f1f460-65fe-42a1-aa15-4046da6f2fbb.png)
 
 error : installed error ,stub error 
+
+that is how i found error in above file in repo 
 
 
 
