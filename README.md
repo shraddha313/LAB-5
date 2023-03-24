@@ -1,24 +1,30 @@
 # LAB-5
-IT 314 Software Engineering
-Lab 5
-Name: doshi shraddha vimalbhai
-Student ID: 202001278
-Static Code Analysis of a git repository using mypy tool
-Reference Git Repository:https://github.com/SharwariSM/Hostel-management-system
-Reference Git Repository:https://github.com/shraddha313/hiiii/tree/main/Lab-5_202001149
-Reference Git Repository:https://github.com/shraddha313/hiiii/tree/main/Lab-5_202001149
-mypy tool:
-mypy is an open-source static type checker for Python.
-It supports type annotations for function arguments, return values, and variables.
-It can also check for common type-related errors such as type mismatches, invalid method calls, and incorrect argument types.
-mypy supports various types of annotations including built-in types like str, int, float, etc., user-defined classes, generic types, and union types.
-It also provides options to customize the checking process, ignore certain files, and suppress specific error messages
+# IT 314 Software Engineering
+# 
+# Name: Doshi shraddha vimalbhai
+# Student ID: 202001278
+# Static Code Analysis of a git repository using mypy tool </br>
+Reference Git Repository:https://github.com/SharwariSM/Hostel-management-system </br>
 
-Process:
-open vscode
-install mypy using command: python -m pip install mypy
-clone the git repository
-then run the file 
+Reference Git Repository:https://github.com/shraddha313/hiiii/tree/main/Lab-5_202001149</br>
+
+# mypy tool:
+mypy is an open-source static type checker for Python. </br>
+It supports type annotations for function arguments, return values, and variables.</br>
+It can also check for common type-related errors such as type mismatches, invalid method calls, and incorrect argument types.</br>
+mypy supports various types of annotations including built-in types like str, int, float, etc., user-defined classes, generic types, and union types</br>.
+It also provides options to customize the checking process, ignore certain files, and suppress specific error messages</br>
+
+Type checkers help ensure that you’re using variables and functions in your code correctly. With mypy, add type hints (PEP 484) to your Python programs, and mypy will warn you when you use those types incorrectly.</br>
+
+Python is a dynamic language, so usually you’ll only see errors in your code when you attempt to run it. Mypy is a static checker, so it finds bugs in your programs without even running them!</br>
+
+# Process:
+open vscode</br>
+install mypy using command: python -m pip install mypy</br>
+clone the git repository</br>
+
+then run the file </br>
 
 1) first repo 
 ![image](https://user-images.githubusercontent.com/77456124/227494544-75d7db00-4dc7-493c-a8bf-f188be47a741.png)
@@ -42,4 +48,7 @@ module error
 import error 
 
 fourth file : sh.py
+error : installed error ,stub error 
+
+
 
